@@ -1,0 +1,59 @@
+#1
+'''
+hashes = ("abc123", "ffd222", "9af010", "ffd222", "x0x0x0")
+print("kolichestvo vxojdeniy:", hashes.count("ffd222"))
+'''
+#2
+'''
+users = ("guest", "moderator", "admin", "root")
+print(hashes.index("admin"))
+'''
+#3
+'''
+key_params = ("AES", 256, "CBC")
+algorithm, key_size, mode = key_params
+print("Algorithm:", algorithm)
+print("Key size:", key_size)
+print("Mode:", mode)
+'''
+#4
+'''
+log = ("login", "download", "upload", "logout")
+print(log[-1])
+'''
+#5
+'''
+ips = ("192.168.0.1", "10.0.0.2", "172.16.0.3")
+if input("vvedite ip: ") in ips:print("naydeno")
+else:print("net v spiske")
+'''
+#6
+'''
+name = input("vvedite imya: ") ; role = input("vvedite rol: ") ; status = input("vvedite status: ")
+user_info = (name, role, status)
+print(user_info)
+'''
+#7
+'''
+access = ("read", "write", "execute")
+print((access[0], input("vvedite novoe slovo: "), access[2]))
+'''
+#8
+'''
+attempts = ("success", "fail", "fail", "success", "fail", "fail")
+print("success:", attempts.count("success"))
+print("fail:", attempts.count("fail"))
+'''
+#9
+'''
+admins = ("root", "admin") ; users = ("alex", "bob")
+print(admins + users)
+'''
+#10
+'''
+logs = ("login", "upload", "download", "logout")
+start = logs[0] ; middle = logs[1:-1] ; end = logs[-1]
+print("start:", start)
+print("middle:", middle)
+print("end:", end)
+'''
